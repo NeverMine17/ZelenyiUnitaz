@@ -1,4 +1,13 @@
+#pragma once
 #include "Const.cpp"
+
+struct Mebel {
+    int x;
+    int y;
+    int shirina;
+    HDC kartinka;
+    int width;
+};
 
 struct Knopka {
     int x;
